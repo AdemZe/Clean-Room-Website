@@ -1,0 +1,139 @@
+/* navbar.scss */
+
+$primary-color: #333; // change to your desired background color
+$text-color: #fff; // change to your desired text color
+$hover-color: #ccc; // change to your desired hover color
+$active-color: #ccc; // change to your desired active color
+$button-background-color: #337ab7; // change to your desired button background color
+$button-text-color: #fff; // change to your desired button text color
+$button-hover-background-color: #23527c; // change to your desired button hover background color
+
+.navbar {
+  background-color: $primary-color;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  //margin-right: 1rem;
+  order: 1;
+ 
+}
+
+.navbar-toggler {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.navbar-toggler svg {
+  width: 20px;
+  height: 20px;
+  fill: $text-color;
+}
+
+.nav-menu {
+  flex-grow: 1;
+  transition: max-height 0.5s ease;
+  display: flex; // Assurez-vous que le conteneur utilise flexbox
+  justify-content: center; // Centre les éléments du menu
+
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+
+}
+
+.nav-menu li {
+  margin-right: 20px;
+  //display: inline-block;
+}
+
+.nav-link {
+  color: $text-color;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: $hover-color;
+}
+
+.nav-link-active {
+  color: $active-color;
+}
+
+.nav-dropdown-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: $primary-color;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.nav-dropdown-list li {
+  margin-bottom: 10px;
+}
+
+.nav-dropdown-link {
+  padding: 10px;
+  display: block;
+}
+
+.nav-dropdown-link:hover {
+  background-color: #444; // change to your desired hover background color
+}
+
+.btn {
+  background-color: $button-background-color;
+  color: $button-text-color;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  order: 3;
+
+}
+
+.btn:hover {
+  background-color: $button-hover-background-color;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .nav-menu {
+    justify-content: flex-end;
+}
+  .nav-menu {
+    flex-direction: row; /* Modifier la direction en ligne pour afficher horizontalement */
+    justify-content: center; /* Centrer les éléments */
+  }
+  .nav-menu li {
+    margin-right: 10;
+  }
+  .nav-dropdown-list {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .nav-dropdown-list li {
+    margin-bottom: 0;
+  }
+}

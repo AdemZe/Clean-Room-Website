@@ -1,0 +1,178 @@
+{
+  "main": [
+    {
+      "id": 1,
+      "title": "Acceuil",
+      "path": "/",
+      "newTab": false
+    },
+    {
+      "id": 2,
+      "title": "Qui sommes-nous",
+      "path": "/about",
+      "newTab": false
+    },
+    {
+      "id": 7,
+      "title": "Solution",
+      "path": "/",
+      "newTab": false,
+      "submenu": [
+        {
+          "id": 20,
+          "title": "Analyse",
+          "path": "/blog",
+          "newTab": false
+        },
+        {
+          "id": 22,
+          "title": "Conception",
+          "path": "/blog",
+          "newTab": false
+        },
+        {
+          "id": 23,
+          "title": "Production",
+          "path": "/blog",
+          "newTab": false
+        },
+        {
+          "id": 24,
+          "title": "Installation",
+          "path": "/blog",
+          "newTab": false
+        },
+        {
+          "id": 25,
+          "title": "Qualification",
+          "path": "/blog",
+          "newTab": false
+        },
+        {
+          "id": 26,
+          "title": "Entretien",
+          "path": "/blog",
+          "newTab": false
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "title": "Produit",
+      "newTab": false,
+      "submenu": [
+        {
+          "id": 41,
+          "title": "Salle Blanche",
+          "path": "/about",
+          "newTab": false
+        },
+        {
+          "id": 42,
+          "title": "Panneau en HPL",
+          "path": "/contact",
+          "newTab": false
+        },
+        {
+          "id": 43,
+          "title": "Panneau Sandwich",
+          "path": "/blog",
+          "newTab": false
+        },
+        {
+          "id": 44,
+          "title": "Les Profiles",
+          "path": "/blog-sidebar",
+          "newTab": false
+        },
+        {
+          "id": 45,
+          "title": "Faux Plafond",
+          "path": "/blog-details",
+          "newTab": false
+        },
+        {
+          "id": 46,
+          "title": "Les portes",
+          "path": "/signin",
+          "newTab": false
+        },
+        {
+          "id": 47,
+          "title": "Sign Up Page",
+          "path": "/signup",
+          "newTab": false
+        },
+        {
+          "id": 48,
+          "title": "Error Page",
+          "path": "/error",
+          "newTab": false
+        }
+      ]
+    },
+    
+    {
+      "id": 3,
+      "title": "Projets",
+      "path": "/blogs",
+      "newTab": false
+    },
+    {
+      "id": 8,
+      "title": "Galerie",
+      "path": "/",
+      "newTab": false
+    }
+  ],
+  "footer": [
+    {
+      "name": "Company",
+      "menu": [
+        {
+          "text": "Pricing",
+          "url": "/pricing"
+        },
+        {
+          "text": "Quick Start",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "menu": [
+        {
+          "text": "Features",
+          "url": "#"
+        },
+        {
+          "text": "Platform",
+          "url": "#"
+        },
+        {
+          "text": "Pricing",
+          "url": "/pricing"
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "menu": [
+        {
+          "text": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "text": "Privacy Policy",
+          "url": "#"
+        },
+        {
+          "text": "Terms & Conditions",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}
