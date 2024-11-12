@@ -1,3 +1,5 @@
+import { auto } from '@popperjs/core'
+import Image from 'next/image'
 import React from 'react'
 
 function ScrollingLogo() {
@@ -5,11 +7,14 @@ function ScrollingLogo() {
     <div>
       <div className="flex overflow-hidden space-x-16 group">
   <div className="flex space-x-16 animate-loop-scroll group-hover:paused">
-    <img
+    <Image
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee9f161-df19-4fa7-a2a6-edf9acf0e0d6?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
       className="max-w-none"
       alt="Image 1"
+      width={100} // Add the required "width" property
+      height={100} // Add the required "height" property
+
     />
     <img
       loading="lazy"

@@ -112,3 +112,7 @@
     @apply font-semibold text-dark;
   }
 }
+
+.border-primaryy {
+  @apply border-primaryy ; // Utilise la couleur primaire définie dans Tailwind
+}

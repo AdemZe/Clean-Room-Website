@@ -12,7 +12,7 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   const { logo } = config.site;
   const { enable, label, link } = config.nav_button;
-
+  // const isValidLink = link && typeof link === "string";
 
 
   return (
@@ -96,7 +96,8 @@ const Navbar = () => {
       </div>
       {enable && (
         //<div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-end md:ml-0 md:flex md:order-2">
-        <div className="flex-shrink-0">   
+        <div className="flex-shrink-0">
+             
           <Link className={`${styles['btn']} btn btn-primary z-0 py-[14px]`} href={link} rel="">
             {label}
           </Link>

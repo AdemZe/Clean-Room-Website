@@ -22,6 +22,7 @@
     "@nextui-org/accordion": "^2.0.40",
     "@nextui-org/react": "^2.4.8",
     "@popperjs/core": "^2.11.8",
+    "@preline/carousel": "^2.5.0",
     "bootstrap": "^5.3.3",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
@@ -38,7 +39,8 @@
     "rehype-slug": "^5.1.0",
     "remark-gfm": "^3.0.1",
     "slick-carousel": "^1.8.1",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.7",
+    "tw-elements": "^2.0.0"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",

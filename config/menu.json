@@ -9,49 +9,43 @@
     {
       "id": 2,
       "title": "Qui sommes-nous",
-      "path": "/about",
+      "path": "/AboutSection",
       "newTab": false
     },
     {
       "id": 7,
       "title": "Solution",
-      "path": "/",
       "newTab": false,
       "submenu": [
         {
           "id": 20,
           "title": "Analyse",
-          "path": "/blog",
+          "path": "/SolutionElements/AnalysePage",
           "newTab": false
         },
         {
           "id": 22,
           "title": "Conception",
-          "path": "/blog",
+          "path": "/SolutionElements/ConceptionPage",
           "newTab": false
         },
         {
           "id": 23,
           "title": "Production",
-          "path": "/blog",
+          "path": "/SolutionElements/ProductionPage",
           "newTab": false
         },
         {
           "id": 24,
           "title": "Installation",
-          "path": "/blog",
+          "path": "/SolutionElements/InstallationPage",
           "newTab": false
         },
-        {
-          "id": 25,
-          "title": "Qualification",
-          "path": "/blog",
-          "newTab": false
-        },
+
         {
           "id": 26,
           "title": "Entretien",
-          "path": "/blog",
+          "path": "/SolutionElements/EntretienPage",
           "newTab": false
         }
       ]
@@ -65,60 +59,60 @@
         {
           "id": 41,
           "title": "Salle Blanche",
-          "path": "/about",
+          "path": "ProduitElements/SalleBlanchePage",
           "newTab": false
         },
         {
           "id": 42,
           "title": "Panneau en HPL",
-          "path": "/contact",
+          "path": "ProduitElements/PanneauEnHplPage",
           "newTab": false
         },
         {
           "id": 43,
           "title": "Panneau Sandwich",
-          "path": "/blog",
+          "path": "ProduitElements/PanneauSandiwchPage",
           "newTab": false
         },
         {
           "id": 44,
           "title": "Les Profiles",
-          "path": "/blog-sidebar",
+          "path": "ProduitElements/ProfilesPage",
           "newTab": false
         },
         {
           "id": 45,
           "title": "Faux Plafond",
-          "path": "/blog-details",
+          "path": "ProduitElements/PlafondPage",
           "newTab": false
         },
         {
           "id": 46,
-          "title": "Les portes",
-          "path": "/signin",
+          "title": "Portes de salles blanches",
+          "path": "ProduitElements/PortesPage",
           "newTab": false
         },
         {
           "id": 47,
-          "title": "Sign Up Page",
-          "path": "/signup",
+          "title": "Revêtement Sols",
+          "path": "ProduitElements/SolsPage",
           "newTab": false
         },
         {
           "id": 48,
-          "title": "Error Page",
-          "path": "/error",
+          "title": "Pass Plat",
+          "path": "ProduitElements/PassPlatPage",
+          "newTab": false
+        },
+        {
+          "id": 49,
+          "title": "Mobilier de sas et de vestiaires",
+          "path": "ProduitElements/VestiairePage",
           "newTab": false
         }
       ]
     },
-    
-    {
-      "id": 3,
-      "title": "Projets",
-      "path": "/blogs",
-      "newTab": false
-    },
+
     {
       "id": 8,
       "title": "Galerie",

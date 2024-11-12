@@ -5,6 +5,7 @@ import Header from "@partials/Header";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Contact from "./Contact";
+import Navbar from "./components/Navbar";
 
 const Base = ({
   title,
@@ -92,6 +93,7 @@ const Base = ({
       </Head>
       <Header />
       {/* main site */}
+      
       <main>{children}</main>
      
       <Footer />

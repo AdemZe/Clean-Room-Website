@@ -5,8 +5,9 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['images.unsplash.com' ,'api.uifaces.co','randomuser.me'], // Ajoutez le domaine ici
+    domains: ['images.unsplash.com' ,'api.uifaces.co','randomuser.me','cdn.builder.io'], // Ajoutez le domaine ici
   },
 };
 
 module.exports = nextConfig;
+
