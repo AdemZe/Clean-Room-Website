@@ -85,17 +85,14 @@ De plus, les Bonnes Pratiques de Fabrication (BPF) suggèrent que l’utilisatio
             <br/>
 
  <div>
-            <h3 className="" > Sas personnel et vestiaire            </h3>
+            <h3 className="" > Sas personnel et vestiaire     </h3>
             <p className="mt-3 text-lg leading-8">
             Le sas personnel permet d’assurer la maîtrise des risques de contamination générés par les flux de personnel.
 
 Le vestiaire quant à lui est une pièce dans laquelle les personnes qui entrent dans une salle propre ou qui en sortent, revêtent ou retirent leurs tenues de salle propre.           <br/><br/>
 Le terme vestiaire fait en général référence à des locaux non classés alors que celui de sas personnel fait référence à une zone d’entrée ou de sortie d’environnement maîtrisé.            </p>
             </div>
-
-
-            
-            
+         
           </div>
   
           {/* 'To Top' button */}
@@ -118,7 +115,7 @@ Le terme vestiaire fait en général référence à des locaux non classés alor
           )}
         </div>
   
-        <div className="pb-15 relative w-full   p-11">
+        <div className="pb-15 relative w-[70%] mx-64  p-11">
           <Swiper
             className="progress-slide-carousel"
             loop={true}
@@ -132,32 +129,42 @@ Le terme vestiaire fait en général référence à des locaux non classés alor
             }}
           >
             <SwiperSlide>
-              <div className="flex h-96 items-center justify-center rounded-2xl bg-indigo-50">
+              <div className="flex h-[650px] items-center justify-center rounded-2xl bg-indigo-50">
                 <span className="text-3xl font-semibold text-indigo-600">
-                  <div className="relative h-96 w-full ">
-                    <img src="/images/salle-blanche-1.jpg" alt="salle blanche" />
+                  <div className="relative h-full w-full ">
+                    <img src="/images/vestaire3.jpg" alt="salle blanche" 
+                     className="h-full w-full object-cover rounded-2xl"
+                    />
                   </div>
                 </span>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex h-96 items-center justify-center rounded-2xl bg-indigo-50">
-                <img src="/images/salle-blanche-2.jpg" alt="salle blanche" />
+              <div className="flex h-[650px] items-center justify-center rounded-2xl bg-indigo-50">
+                <img src="/images/vestaire4.jpg" alt="salle blanche" 
+                 className="h-full w-full object-cover rounded-2xl"
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex h-96 items-center justify-center rounded-2xl bg-indigo-50">
-                <img src="/images/salle-blanche-3.jPG" alt="salle blanche" />
+              <div className="flex h-[650px] items-center justify-center rounded-2xl bg-indigo-50">
+                <img src="/images/vestaire1.jpg" alt="salle blanche"
+                 className="h-full w-full object-cover rounded-2xl"
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex h-96 items-center justify-center rounded-2xl bg-indigo-50">
-                <img src="/images/salle-blanche-4.jPG" alt="salle blanche" />
+              <div className="flex h-[650px] items-center justify-center rounded-2xl bg-indigo-50">
+                <img src="/images/vestaire2.jpg" alt="salle blanche" 
+                 className="h-full w-full object-cover rounded-2xl"
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex h-96 items-center justify-center rounded-2xl bg-indigo-50">
-                <img src="/images/salle-blanche-6.jPG" alt="salle blanche" />
+              <div className="flex h-[650px] items-center justify-center rounded-2xl bg-indigo-50">
+                <img src="/images/vestaire5.jpg" alt="salle blanche" 
+                 className="h-full w-full object-cover rounded-2xl"
+                />
               </div>
             </SwiperSlide>
           </Swiper>

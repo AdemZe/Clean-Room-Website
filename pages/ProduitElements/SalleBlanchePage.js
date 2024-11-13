@@ -36,7 +36,7 @@ function SalleBlanchePage() {
   };
 
   return (
-    <div>
+    <div >
       <div className="relative overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 h-[470px] text-white">
         <div className="absolute inset-0">
           <img
@@ -67,7 +67,7 @@ function SalleBlanchePage() {
             </div>
           </div>
           <div>
-            <p className="mb-24 text-lg leading-8">
+            <p className="mb-9 text-lg leading-8">
               Aujourd’hui, de nombreux secteurs doivent se protéger de la
               contamination extérieure ou maîtriser celle à l’intérieur de leurs
               espaces. Cela crée des besoins spécifiques pour différentes zones
@@ -83,7 +83,7 @@ function SalleBlanchePage() {
           </div>
 
           <div>
-            <p className="mb-15 text-lg leading-8">
+            <p className=" mt-5  mb-15 text-lg leading-8">
               La classe d’empoussièrement traduit la qualité de l’air dans un
               volume donné en mesurant plus particulièrement la quantité et le
               dimensionnement des particules.La norme ISO est une norme relative
@@ -144,24 +144,7 @@ function SalleBlanchePage() {
 
           <h3 className="mt-16"> Le matériel dans une salle blanche </h3>
           <p className="mt-8 text-lg leading-8">
-            Dans un environnement à atmosphère contrôlée, tel qu’une salle
-            blanche, le matériel doit satisfaire des exigences strictes en
-            matière d’hygiène, d’ergonomie et de performance. Il doit être conçu
-            pour un nettoyage et une désinfection aisés, tout en étant adapté
-            aux besoins des opérateurs. Cela implique des caractéristiques qui
-            facilitent les déplacements, le transport, et l’entretien, ainsi que
-            des matériaux qui résistent aux conditions spécifiques de ces
-            espaces. L’acier inoxydable est devenu un choix incontournable pour
-            le mobilier et les équipements en salle blanche, en raison de sa
-            durabilité, de sa résistance à la corrosion, et de sa capacité à
-            maintenir une hygiène optimale. À chaque étape, du sas d’hygiène
-            jusqu’aux espaces de travail, les éléments de mobilier tels que
-            placards pour vêtements, bancs, chaises, tables, supports et
-            chariots jouent un rôle essentiel dans l’organisation et la sécurité
-            des opérations. Ces pièces sont conçues non seulement pour répondre
-            aux exigences de propreté, mais aussi pour assurer un environnement
-            de travail efficace, confortable et ergonomique dans des conditions
-            où la maîtrise de la contamination est prioritaire.
+          Dans une salle blanche, le matériel doit respecter des normes strictes d’hygiène, d’ergonomie et de performance. Conçu pour faciliter nettoyage et désinfection, il est adapté aux besoins des opérateurs, avec des matériaux résistants comme l’acier inoxydable, apprécié pour sa durabilité et son hygiène. Les équipements tels que placards, bancs, chaises et chariots contribuent à l’organisation et à la sécurité des opérations, garantissant un environnement de travail propre, confortable et ergonomique.
           </p>
 
           <h3 className="mt-16">
@@ -215,90 +198,33 @@ function SalleBlanchePage() {
             </p>
           </p>
 
-          <h3 className="mt-16">
+          <h3 className="mt-12">
             Des systèmes de salles propres évolutifs répondant à toutes les
             exigences
           </h3>
-          <p className=" text-lg leading-8">
+          <p className=" text-lg leading-8 mt-4 mb-5">
             Notre gamme de produits et de services a été soigneusement conçue
             pour répondre aux besoins spécifiques de l’univers des salles
             propres, en intégrant des éléments essentiels tels que la qualité,
             la maîtrise technique et la personnalisation.
           </p>
 
-          <h5 className="font-bold">Qualité des composants</h5>
-          <p className=" text-lg leading-8">
-            Nous collaborons avec des fournisseurs de renom qui adoptent une
-            approche rigoureuse en matière de qualité interne. Cette
-            collaboration nous permet de rester en constante dynamique
-            d’amélioration pour garantir des solutions de salle propre à la
-            pointe.
-          </p>
-          <p>
-            Nous sélectionnons des matériaux réputés pour leur résistance face à
-            des conditions extrêmes, telles que l’exposition à des produits
-            corrosifs, aux chocs, à l’humidité ou encore à l’air. Chaque matière
-            première est choisie selon des critères de qualité très élevés. En
-            complément de contrôles internes minutieux, la durabilité de nos
-            produits est démontrée par leur performance constante chez nos
-            clients, certains d’entre eux utilisant nos solutions depuis de
-            nombreuses années.
+          <h5 className="font-bold ">Qualité des composants</h5>
+          <p className=" text-lg leading-8 mt-4 mb-5">
+          Nous collaborons avec des fournisseurs de qualité pour offrir des solutions de salle propre innovantes. Nous choisissons des matériaux résistants aux conditions extrêmes (corrosion, chocs, humidité) selon des critères stricts. Grâce à des contrôles rigoureux, la durabilité de nos produits est confirmée par leur performance continue chez nos clients fidèles.
           </p>
 
           <h5 className="font-bold">
             Fabrication sur mesure de salles propres
           </h5>
-          <p>
-            Nous proposons une adaptation multivolume pour chaque projet, qu’il
-            s’agisse de petites, moyennes ou grandes salles propres,
-            garantissant ainsi une maîtrise totale de chaque configuration.
-          </p>
-          <p>
-            Notre flexibilité de production est renforcée par une unité de
-            fabrication dédiée, capable de s’adapter à toutes les commandes,
-            qu’elles soient simples ou complexes. Nous optimisons également le
-            processus d’industrialisation en anticipant l’adaptation des
-            panneaux avant le début du chantier, ce qui permet de réduire les
-            interférences et d’accélérer l’installation de votre salle propre.
-          </p>
-          <p className=" text-lg leading-8">
-            Les livraisons sont soigneusement planifiées pour chaque phase du
-            chantier, en particulier lors des rénovations. Pour votre confort et
-            une efficacité optimale, nous privilégions une approche de « juste à
-            temps », limitant ainsi l’encombrement sur site.
+
+          <p className=" text-lg leading-8 mt-4 mb-5">
+          Nous offrons une adaptation multivolume pour des salles propres de toutes tailles, assurant une maîtrise complète des configurations. Grâce à notre unité de fabrication flexible, nous répondons à des commandes variées et optimisons l’industrialisation en préparant les panneaux à l’avance, réduisant ainsi les interférences et accélérant l’installation. Les livraisons sont planifiées en phases, avec une approche « juste à temps » pour minimiser l’encombrement sur site et garantir efficacité et confort.
           </p>
 
           <h5 className="font-bold">Qualité de mise en œuvre</h5>
-          <p className=" text-lg leading-8">
-            Nous garantissons le respect strict des règles de sécurité sur tous
-            nos chantiers. Nos équipes sont formées et détiennent les
-            certifications nécessaires, telles que le CACES, ce qui facilite
-            l’installation en toute sécurité.
-          </p>
-          <p className=" text-lg leading-8">
-            La coordination de nos équipes qualifiées est orchestrée par des
-            chefs de chantier qui maintiennent une communication constante avec
-            les conducteurs de travaux tout au long du processus d’installation
-            de votre salle propre.
-          </p>
-          <p className=" text-lg leading-8">
-            Un contrôle rigoureux est effectué sur le chantier grâce à des
-            vérifications régulières, garantissant la bonne mise en œuvre de
-            toutes les installations.
-          </p>
-          <p className=" text-lg leading-8">
-            Nous veillons également à l’optimisation des conditions de chantier,
-            en définissant clairement les zones de stockage et de travail pour
-            assurer une coordination sans faille. Un suivi quotidien de la
-            propreté des abords du chantier permet de maintenir un environnement
-            de travail impeccable.
-          </p>
-          <p className=" text-lg leading-8">
-            Enfin, nous nous engageons à respecter les délais convenus avec nos
-            clients. Chaque planning est élaboré en amont, permettant une
-            évaluation précise des différentes phases d’installation, et
-            garantissant ainsi une réactivité de service à la hauteur de vos
-            attentes.
+          <p className=" text-lg leading-8 mt-4 mb-5">
+          Nous assurons la sécurité sur tous nos chantiers grâce à des équipes formées et certifiées, sous la supervision de chefs de chantier en coordination avec les conducteurs de travaux. Un contrôle rigoureux et des vérifications régulières garantissent la qualité de chaque installation. Les zones de stockage et de travail sont clairement définies pour une organisation optimale, et la propreté du site est maintenue quotidiennement. Enfin, nous respectons les délais grâce à une planification précise et un suivi réactif des phases d’installation.
           </p>
         </div>
 
@@ -322,12 +248,12 @@ function SalleBlanchePage() {
         )}
       </div>
 
-      <div className="relative w-full p-11">
+      <div className="relative w-[70%] mx-60 p-11">
         <Swiper
           className="progress-slide-carousel"
           loop={true}
           autoplay={{
-            delay: 1700,
+            delay: 2500,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -335,42 +261,39 @@ function SalleBlanchePage() {
             type: "progressbar",
           }}
         >
-          <SwiperSlide>
-            <div className="flex h-96 items-center justify-center rounded-2xl bg-indigo-50">
+          <SwiperSlide   className="mt-0">
+            <div className="flex h-[650px] items-center justify-center rounded-2xl bg-indigo-50">
               <span className="text-3xl font-semibold text-indigo-600">
-                <div className="relative h-96 w-full " >
-                <img  src="/images/salle-blanche-1.jpg"  alt="salle blanche"        />
+                <div className="relative h-full w-full " >
+                <img  src="/images/salle-blanche-9.jpg"  alt="salle blanche"    
+                className="h-full w-full object-cover rounded-2xl"
+                />
                 </div>
               </span>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex h-96 items-center justify-center rounded-2xl bg-indigo-50">
-            <img  src="/images/salle-blanche-2.jpg"  alt="salle blanche"        />
+            <div className="flex h-[650px] items-center justify-center rounded-2xl bg-indigo-50">
+            <img  src="/images/salle-blanche-13"  alt="salle blanche"   
+            className="h-full w-full object-cover rounded-2xl"
+            />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex h-96 items-center justify-center rounded-2xl bg-indigo-50">
-            <img  src="/images/salle-blanche-3.jPG"  alt="salle blanche"        />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex h-96 items-center justify-center rounded-2xl bg-indigo-50">
-            <img  src="/images/salle-blanche-4.jPG"  alt="salle blanche"        />
 
-            </div>
-          </SwiperSlide>
+
           <SwiperSlide>
-            <div className="flex h-96 items-center justify-center rounded-2xl bg-indigo-50">
-            <img  src="/images/salle-blanche-6.jPG"  alt="salle blanche"        />
+            <div className="flex h-[650px] items-center justify-center rounded-2xl bg-indigo-50">
+            <img  src="/images/salle-blanche-6.jPG"  alt="salle blanche"   
+            className="h-full w-full object-cover rounded-2xl"
+            />
 
             </div>
           </SwiperSlide>
         </Swiper>
-        <div className="swiper-pagination !bottom-2 !top-auto right-0 mx-auto !w-80 bg-gray-100"></div>
+        <div className="swiper-pagination !bottom-1 mt-4  !top-auto right-0 mx-auto !w-80 bg-gray-100"></div>
       </div>
 
-      <section className="relative z-20 mt-0 overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]   ">
+      <section className="relative z-20 mt-0 overflow-hidden bg-white pb-12 pt-5 lg:pb-[90px] lg:pt-[120px]   ">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -410,7 +333,7 @@ La salle blanche a pour principaux objectifs de réguler la température, la pre
               />
               <AccordionItem
                 header="Combien coute une salle blanche ?"
-                text="Le coût d’une salle blanche varie en fonction de différents facteurs. La facture peut être très différente si vous la construisez en interne ou si vous externalisez votre production chez un sous-traitant spécialisé (comme ITHAC). Ensuite, le niveau d’exigence fait varier les tarifs (matériels, ressources etc.)."
+                text="Le coût d’une salle blanche varie en fonction de différents facteurs."
               />
             </div>
           </div>

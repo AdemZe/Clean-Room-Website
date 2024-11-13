@@ -141,4 +141,4 @@ function SolsPage() {
     );
   }
 
-export default SolsPage
+export default SolsPage;
