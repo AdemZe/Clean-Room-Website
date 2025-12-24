@@ -19,7 +19,8 @@ $button-hover-background-color: #23527c; // change to your desired button hover 
 .logo {
   //margin-right: 1rem;
   order: 1;
- 
+  transform: translateY(-8px); /* légèrement remonter le logo */
+  will-change: transform;
 }
 
 .navbar-toggler {
@@ -60,16 +61,19 @@ $button-hover-background-color: #23527c; // change to your desired button hover 
 
 .nav-link {
   color: $text-color;
-  text-decoration: none;
+  text-decoration: none !important; /* prevent underlines from global rules */
+  border-bottom: none !important;
   transition: color 0.2s ease;
 }
 
 .nav-link:hover {
   color: $hover-color;
+  text-decoration: none !important;
 }
 
 .nav-link-active {
   color: $active-color;
+  text-decoration: none !important;
 }
 
 .nav-dropdown-list {
@@ -90,10 +94,17 @@ $button-hover-background-color: #23527c; // change to your desired button hover 
 .nav-dropdown-link {
   padding: 10px;
   display: block;
+  color: $text-color;
+  text-decoration: none !important; /* remove underline in dropdown links */
 }
 
 .nav-dropdown-link:hover {
   background-color: #444; // change to your desired hover background color
+  text-decoration: none !important;
+}
+
+.nav-dropdown-link:focus {
+  text-decoration: none !important;
 }
 
 .btn {
@@ -104,11 +115,18 @@ $button-hover-background-color: #23527c; // change to your desired button hover 
   font-size: 16px;
   cursor: pointer;
   order: 3;
-
+  text-decoration: none !important; /* remove underline on CTA */
+  display: inline-block;
 }
 
 .btn:hover {
   background-color: $button-hover-background-color;
+  text-decoration: none !important;
+}
+
+.btn:focus {
+  outline: none;
+  text-decoration: none !important;
 }
 
 /* Responsive styles */

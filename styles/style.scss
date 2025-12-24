@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  overflow-x: hidden;
+}
+
 @layer base {
   @import "base";
 }
@@ -22,4 +26,23 @@
   .paused {
     animation-play-state: paused;
   }
+}
+
+
+
+
+
+
+
+@keyframes loop-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); /* Ajustez en fonction de la largeur totale */
+  }
+}
+
+.animate-loop-scroll {
+  animation: loop-scroll 10s linear infinite; /* Ajustez la durée selon vos besoins */
 }

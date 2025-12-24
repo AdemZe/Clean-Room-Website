@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "Clean Room Tunisie",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logoCleanRoom1.png",
@@ -24,13 +24,13 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit.",
-    "copyright": " Designed and Developed By [Adem Daghrour](https://themefisher.com/) "
+    "footer_content": "",
+    "copyright": ""
   },
 
   "metadata": {
     "meta_author": "Themefisher",
     "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_description": ""
   }
 }

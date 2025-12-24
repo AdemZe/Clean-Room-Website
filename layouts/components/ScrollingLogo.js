@@ -1,142 +1,60 @@
-import { auto } from '@popperjs/core'
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+
+// Augmenter les dimensions des logos dans le tableau :
+const LOGOS = [
+  { src: "/images/ClientLogo1.png", alt: "Client Logo 1", width: 225, height: 150 },
+  { src: "/images/ClientLogo2.png", alt: "Client Logo 2", width: 450, height: 450 },
+  { src: "/images/ClientLogo3.png", alt: "Client Logo 3", width: 300, height: 300 },
+  { src: "/images/ClientLogo4.jpg", alt: "Client Logo 4", width: 450, height: 450 },
+  { src: "/images/ClientLogo10.jpg", alt: "Client Logo 10", width: 450, height: 450 },
+  { src: "/images/ClientLogo6.jpg", alt: "Client Logo 6", width: 450, height: 450 },
+  { src: "/images/ClientLogo7.jpg", alt: "Client Logo 7", width: 225, height: 225 },
+  { src: "/images/ClientLogo8.png", alt: "Client Logo 8", width: 225, height: 150 },
+  { src: "/images/ClientLogo9.jpg", alt: "Client Logo 9", width: 225, height: 150 },
+  { src: "/images/ClientLogo12.png", alt: "Client Logo 12", width: 225, height: 150 },
+  { src: "/images/ClientLogo13.jpg", alt: "Client Logo 13", width: 225, height: 150 },
+  { src: "/images/ClientLogo14.png", alt: "Client Logo 14", width: 225, height: 150 },
+  { src: "/images/ClientLogo15.jpg", alt: "Client Logo 15", width: 225, height: 150 },
+  { src: "/images/ClientLogo16.png", alt: "Client Logo 16", width: 225, height: 150 },
+  { src: "/images/ClientLogo17.png", alt: "Client Logo 17", width: 225, height: 150 },
+  { src: "/images/ClientLogo18.png", alt: "Client Logo 18", width: 225, height: 150 },
+];
 
 function ScrollingLogo() {
+  const duplicatedLogos = [...LOGOS, ...LOGOS];
+
   return (
-    <div>
-      <div className="flex overflow-hidden space-x-16 group">
-  <div className="flex space-x-16 animate-loop-scroll group-hover:paused">
-    <Image
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee9f161-df19-4fa7-a2a6-edf9acf0e0d6?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 1"
-      width={100} // Add the required "width" property
-      height={100} // Add the required "height" property
+    <section className="py-8 md:py-10 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Titre centré et ligne de séparation */}
+        <div className="text-center">
+          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl pb-10">
+            ILS NOUS FONT CONFIANCE
+          </h2>
+          <div className="w-16 h-1 mx-auto bg-blue-700 mb-12"></div>
+        </div>
 
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/80480f8a-69ad-4c30-88ba-f4e7ee08fc51?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 2"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/140d376c-13f2-4823-b397-b3de733bf560?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 3"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ae217f1-b695-4661-bd3d-6440eebc2c5c?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 4"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/67017079-51e1-4245-9bf1-b5957eb66c74?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 5"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/515313ac-7ec9-4c6e-95db-80dac2f8b960?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 6"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/c513fc32-3ab9-4cca-911e-0b2642ac7206?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 7"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/5731a5a7-689f-49ae-abf1-6e6dc00c2043?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 8"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/cb51d286-530f-42be-9e91-9c850522f127?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 9"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/44ba8437-f6fd-4a51-bfd3-262d7528f7a4?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 10"
-    />
-  </div>
-  <div className="flex space-x-16 animate-loop-scroll group-hover:paused" aria-hidden="true">
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee9f161-df19-4fa7-a2a6-edf9acf0e0d6?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 1"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/80480f8a-69ad-4c30-88ba-f4e7ee08fc51?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 2"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/140d376c-13f2-4823-b397-b3de733bf560?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 3"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ae217f1-b695-4661-bd3d-6440eebc2c5c?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 4"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/67017079-51e1-4245-9bf1-b5957eb66c74?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 5"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/515313ac-7ec9-4c6e-95db-80dac2f8b960?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 6"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/c513fc32-3ab9-4cca-911e-0b2642ac7206?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 7"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/5731a5a7-689f-49ae-abf1-6e6dc00c2043?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 8"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/cb51d286-530f-42be-9e91-9c850522f127?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 9"
-    />
-    <img
-      loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/44ba8437-f6fd-4a51-bfd3-262d7528f7a4?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&"
-      className="max-w-none"
-      alt="Image 10"
-    />
-  </div>
-</div>
-
-    </div>
-  )
+        {/* Zone de défilement des logos */}
+        <div className="group flex overflow-hidden py-2">
+          <div className="group-hover:paused flex animate-loop-scroll space-x-8">
+            {duplicatedLogos.map((logo, index) => (
+              <div key={index} className="flex-shrink-0 flex items-center justify-center px-2">
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={logo.width}
+                  height={logo.height}
+                  loading="lazy"
+                  className="max-w-none object-contain h-24 w-auto transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default ScrollingLogo
+export default ScrollingLogo;

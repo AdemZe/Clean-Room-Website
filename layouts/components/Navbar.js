@@ -6,6 +6,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "styles/navbar.module.scss"; // Importation du fichier CSS Module
 
+
+
+
+
 const Navbar = () => {
   const router = useRouter();
   const { main } = menu;
@@ -15,10 +19,11 @@ const Navbar = () => {
   // const isValidLink = link && typeof link === "string";
 
 
+
   return (
-    <nav className="${styles.navbar} flex items-center justify-between p-4 bg-gray-800 flex-wrap "> {/* Utilisation de la classe CSS Module */}
+    <nav className={`${styles.navbar} flex items-center justify-between p-4 bg-gray-800 flex-wrap`}> {/* Utilisation de la classe CSS Module */}
     
-      <div className="{styles.logo} flex-shrink-0"> {/* Utilisation de la classe CSS Module */}
+      <div className={`${styles.logo} flex-shrink-0 -translate-y-3 scale-105`}> {/* Utilisation de la classe CSS Module - légèrement remonté et agrandi */}
         <Logo src={logo} />
       </div>
 
@@ -108,4 +113,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 

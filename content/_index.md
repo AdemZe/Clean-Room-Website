@@ -1,7 +1,7 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+  title: Votre partenaire de confiance pour des solutions de salles blanches en Tunisie 
+  content: 
   image: /images/banner-art.svg
   button:
     label: "Contact Us"
@@ -13,22 +13,22 @@ feature:
   features:
   - name: "Pharmaceutique"
     icon: "/images/ambulance1.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Nous fournissons des salles blanches conformes aux normes pharmaceutiques, garantissant des conditions stériles pour la production de médicaments et vaccins."
   - name: "Laboratoires"
     icon: "/images/equipment2.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Des solutions sur mesure pour les laboratoires de recherche et d'analyse, avec un contrôle strict des contaminants."
   - name: "Hospitalier"
     icon: "/images/hospital1.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Améliorez la sécurité des patients et du personnel grâce à des salles blanches dédiées aux environnements hospitaliers critiques"
   - name: "Dispositifs médicaux"
     icon: "/images/medical-equipment1111.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Concevez et produisez vos dispositifs médicaux dans un environnement ultra-propre et réglementé."
   - name: "Cosmétique & Électronique"
     icon: "/images/conveyor.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Des installations adaptées pour la fabrication de produits cosmétiques et électroniques nécessitant un contrôle rigoureux de la contamination."
   - name: "Alimentaire"
     icon: "/images/irrigation-system.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Des salles blanches pour l’industrie agroalimentaire, garantissant des normes d’hygiène exceptionnelles."
 
 # services
 services:

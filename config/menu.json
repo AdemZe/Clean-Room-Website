@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "title": "Qui sommes-nous",
+      "title": "Notre Société",
       "path": "/AboutSection",
       "newTab": false
     },
@@ -59,64 +59,63 @@
         {
           "id": 41,
           "title": "Salle Blanche",
-          "path": "ProduitElements/SalleBlanchePage",
+          "path": "/ProduitElements/SalleBlanchePage",
           "newTab": false
         },
         {
           "id": 42,
           "title": "Panneau en HPL",
-          "path": "ProduitElements/PanneauEnHplPage",
+          "path": "/ProduitElements/PanneauEnHplPage",
           "newTab": false
         },
         {
           "id": 43,
           "title": "Panneau Sandwich",
-          "path": "ProduitElements/PanneauSandiwchPage",
+          "path": "/ProduitElements/PanneauSandiwchPage",
           "newTab": false
         },
         {
           "id": 44,
           "title": "Les Profiles",
-          "path": "ProduitElements/ProfilesPage",
+          "path": "/ProduitElements/ProfilesPage",
           "newTab": false
         },
         {
           "id": 45,
           "title": "Faux Plafond",
-          "path": "ProduitElements/PlafondPage",
+          "path": "/ProduitElements/PlafondPage",
           "newTab": false
         },
         {
           "id": 46,
           "title": "Portes de salles blanches",
-          "path": "ProduitElements/PortesPage",
+          "path": "/ProduitElements/PortesPage",
           "newTab": false
         },
         {
           "id": 47,
           "title": "Revêtement Sols",
-          "path": "ProduitElements/SolsPage",
+          "path": "/ProduitElements/SolsPage",
           "newTab": false
         },
         {
           "id": 48,
           "title": "Pass Plat",
-          "path": "ProduitElements/PassPlatPage",
+          "path": "/ProduitElements/PassPlatPage",
           "newTab": false
         },
         {
           "id": 49,
           "title": "Mobilier de sas et de vestiaires",
-          "path": "ProduitElements/VestiairePage",
+          "path": "/ProduitElements/VestiairePage",
           "newTab": false
         }
       ]
     },
-
     {
       "id": 8,
       "title": "Galerie",
-      "path": "/",
+      "path": "/Galerie",
       "newTab": false
     }
   ],

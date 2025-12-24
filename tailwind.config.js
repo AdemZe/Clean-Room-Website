@@ -42,14 +42,14 @@ module.exports = {
       padding: "2rem",
     },
     extend: {
-      animation: {
-        "loop-scroll": "loop-scroll 50s linear infinite",
-      },
       keyframes: {
         "loop-scroll": {
           from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-100%)" },
+          to: { transform: "translateX(-50.5%)" },
         },
+      },
+      animation: {
+        "loop-scroll": "loop-scroll 100s linear infinite",
       },
 
       colors: {
