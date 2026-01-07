@@ -6,6 +6,27 @@ html, body {
   overflow-x: hidden;
 }
 
+/* Masquer la barre de défilement (scrollbar) */
+html {
+  /* Pour Chrome, Safari, Edge */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE et Edge */
+  
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+}
+
+body {
+  /* Pour Chrome, Safari, Edge */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE et Edge */
+  
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+}
+
 @layer base {
   @import "base";
 }
