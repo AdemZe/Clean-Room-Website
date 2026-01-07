@@ -15,6 +15,8 @@ const Logo = ({ src }) => {
       style={{
         height: logo_height.replace("px", "") + "px",
         width: logo_width.replace("px", "") + "px",
+        display: "flex",
+        justifyContent: "flex-end",
       }}
     >
       {src || logo ? (
@@ -24,6 +26,7 @@ const Logo = ({ src }) => {
           src={src ? src : logo}
           alt={title}
           priority
+          style={{ maxWidth: "70%" }}
         />
       ) : logo_text ? (
         logo_text
