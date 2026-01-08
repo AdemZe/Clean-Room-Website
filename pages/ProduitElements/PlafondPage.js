@@ -59,9 +59,9 @@ function PlafondPage() {
   };
 
   const carouselImages = [
-    "/images/plafond10.jpg",
+    "/images/plafond10.JPG",
     "/images/plafond2.jpg.JPG",
-    "/images/plafond8.jPG",
+    "/images/plafond8.JPG",
     "/images/plafond7(2).jpg",
   ];
 

@@ -150,7 +150,7 @@ function SolsPage() {
               <div className="overflow-hidden rounded-xl shadow-lg">
                 <div className="relative h-[400px]">
                   <Image
-                    src="/images/Sol3.jpg"
+                    src="/images/Sol3.JPG"
                     alt="Revêtement sol résine époxy"
                     fill
                     className="object-cover"

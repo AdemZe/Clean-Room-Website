@@ -19,7 +19,7 @@ function Galerie() {
     { id: 8, src: "/images/vestaire3.jpg", alt: "Équipement spécialisé", category: "Vestiaires" },
     { id: 9, src: "/images/panneauHpl6.JPG", alt: "Finitions", category: "Salles Blanches" },
     { id: 10, src: "/images/IMG_4887.JPG", alt: "Analyse technique", category: "Salles Blanches" },
-    { id: 11, src: "/images/plafond7.jpg.jpg", alt: "Consultation", category: "Plafonds" },
+    { id: 11, src: "/images/plafond7.jpg", alt: "Consultation", category: "Plafonds" },
     { id: 12, src: "/images/portesSalle3.JPG", alt: "Maintenance", category: "Portes" },
     { id: 13, src: "/images/portes9.JPG", alt: "Contrôle régulier", category: "Portes" },
     { id: 14, src: "/images/plafond6.jpg", alt: "Projet complet", category: "Plafonds" },
