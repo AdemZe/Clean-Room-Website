@@ -61,7 +61,8 @@ function PassPlatPage() {
   const carouselImages = [
     "/images/pass-plat5.webp",
     "/images/pass-plat6.webp",
-    "/images/passbox.jpg",
+    "/images/pass-plat1.JPG",
+    "/images/pass-plat2.JPG",
   ];
 
   // Configuration d'autoplay

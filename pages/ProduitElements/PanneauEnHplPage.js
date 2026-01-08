@@ -62,7 +62,7 @@ function PanneauEnHplPage() {
     "/images/panneauHpl2.JPG",
     "/images/panneauHpl3.JPG",
     "/images/panneauHpl5.JPG",
-    "/images/panneauHpl6.JPG",
+    "/images/panneauHpl7.JPG",
   ];
 
   // Configuration d'autoplay

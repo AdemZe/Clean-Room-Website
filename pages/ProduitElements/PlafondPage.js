@@ -62,8 +62,7 @@ function PlafondPage() {
     "/images/plafond10.jpg",
     "/images/plafond2.jpg.JPG",
     "/images/plafond8.jPG",
-    "/images/plafond5.jpg",
-    "/images/plafond6.jpg",
+    "/images/plafond7(2).jpg",
   ];
 
   // Configuration d'autoplay

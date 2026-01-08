@@ -59,8 +59,9 @@ function SalleBlanchePage() {
 
   const carouselImages = [
     "/images/salle-blanche-9.jpg",
-    "/images/salle-blanche-13.jpg",
-    "/images/salle-blanche-6.jPG",
+    "/images/salle-blanche--14.png",
+    "/images/salle-blanche--15.png",
+    "/images/salle-blanche-6.png",
   ];
 
   // Configuration d'autoplay pour votre carousel existant
@@ -211,7 +212,8 @@ function SalleBlanchePage() {
         <section className="bg-gray-50 py-16">
           <div className="mx-auto max-w-6xl px-4">
             <h3 className="mb-8 text-center text-2xl font-bold text-gray-800">
-              Nos Réalisations de Salles Blanches
+            Conception et montage de votre salle blanche
+              
             </h3>
             
             <div className="relative">
@@ -231,16 +233,16 @@ function SalleBlanchePage() {
                   >
                     {carouselImages.map((src, index) => (
                       <SwiperSlide key={index}>
-                        <div className="relative h-full w-full overflow-hidden rounded-2xl shadow-2xl bg-gray-200">
+                        <div className="relative h-full w-full overflow-hidden rounded-2xl shadow-2xl bg-gray-200 flex items-center justify-center">
                           <Image
                             src={src}
                             alt={`Salle blanche réalisation ${index + 1}`}
                             fill
-                            className="object-cover transition-transform duration-700 hover:scale-105"
+                            className="object-contain transition-transform duration-700 hover:scale-105"
                             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 100vw, 100vw"
                             priority={index === 0}
                           />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
                         </div>
                       </SwiperSlide>
                     ))}
@@ -250,15 +252,15 @@ function SalleBlanchePage() {
               ) : (
                 <div className="grid gap-6 md:grid-cols-2">
                   {carouselImages.map((src, index) => (
-                    <div key={index} className="relative h-[300px] overflow-hidden rounded-2xl shadow-2xl">
+                    <div key={index} className="relative h-[300px] overflow-hidden rounded-2xl shadow-2xl bg-gray-200 flex items-center justify-center">
                       <Image
                         src={src}
                         alt={`Salle blanche réalisation ${index + 1}`}
                         fill
-                        className="object-cover"
+                        className="object-contain"
                         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
                     </div>
                   ))}
                 </div>

@@ -48,7 +48,7 @@ function SolsPage() {
 
   const carouselImages = [
     "/images/Sol1.jpg",
-    "/images/Sol3.jpg",
+    "/images/Soll5.jpg",
     "/images/salle-blanche-3.jPG",
   ];
 

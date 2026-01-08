@@ -61,8 +61,6 @@ function VestiairePage() {
   const carouselImages = [
     "/images/vestaire3.jpg",
     "/images/vestaire4.jpg",
-    "/images/vestaire1.jpg",
-    "/images/vestaire2.jpg",
     "/images/vestaire5.jpg",
   ];
 

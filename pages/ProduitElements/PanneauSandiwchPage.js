@@ -24,9 +24,10 @@ function PanneauSandwichPage() {
   };
 
   const carouselImages = [
-    "/images/PanneauxSandiwch3.PNG",
-    "/images/PanneauxSandiwch6.PNG",
-    "/images/PanneauxSandiwch5.PNG",
+    "/images/PanneauxSandiwch7.PNG",
+    "/images/PanneauxSandwich8.webp",
+    "/images/panneauHpl4.JPG",
+    "/images/HI.07-1024x768.jpg",
   ];
 
   return (

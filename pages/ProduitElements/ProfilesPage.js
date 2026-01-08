@@ -270,7 +270,7 @@ function ProfilesPage() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                         <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                          <p className="text-lg font-semibold">Application {index + 1}</p>
+                          <p className="text-lg font-semibold">Projet {index + 1}</p>
                         </div>
                       </div>
                     </SwiperSlide>
