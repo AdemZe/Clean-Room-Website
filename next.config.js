@@ -7,7 +7,6 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
     domains: ['images.unsplash.com' ,'api.uifaces.co','randomuser.me','cdn.builder.io'], // Ajoutez le domaine ici
-    unoptimized: true,
   },
 };
 
