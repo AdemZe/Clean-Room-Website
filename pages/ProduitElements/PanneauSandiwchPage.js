@@ -36,7 +36,7 @@ function PanneauSandwichPage() {
       <header className="relative h-[470px] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="public/images/PanneauHplHeader.JPG"
+            src="/images/PanneauHplHeader.JPG"
             alt="Panneau Sandwich - Header"
             fill
             className="object-cover object-center"
@@ -116,7 +116,7 @@ function PanneauSandwichPage() {
             <div className="overflow-hidden rounded-xl shadow-lg">
               <div className="relative h-[500px]">
                 <Image
-                  src="public/images/PanneauxSandiwch1.PNG"
+                  src="/images/PanneauxSandiwch1.PNG"
                   alt="Structure du panneau sandwich"
                   fill
                   className="object-contain p-8"

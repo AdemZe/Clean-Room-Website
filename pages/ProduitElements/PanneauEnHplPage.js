@@ -78,7 +78,7 @@ function PanneauEnHplPage() {
       <header className="relative h-[470px] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="public/images/PanneauHplHeader.JPG"
+            src="/images/PanneauHplHeader.JPG"
             alt="Panneau HPL - Header"
             fill
             className="object-cover object-center"
