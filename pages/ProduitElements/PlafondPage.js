@@ -78,7 +78,7 @@ function PlafondPage() {
       <header className="relative h-[470px] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/PanneauHplHeader.jpg"
+            src="/images/PanneauHplHeader.JPG"
             alt="Faux Plafond - Header"
             fill
             className="object-cover object-center"

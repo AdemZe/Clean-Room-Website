@@ -77,7 +77,7 @@ function VestiairePage() {
       <header className="relative h-[470px] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/PanneauHplHeader.jpg"
+            src="/images/PanneauHplHeader.JPG"
             alt="Mobilier de sas et de vestiaires - Header"
             fill
             className="object-cover object-center"
